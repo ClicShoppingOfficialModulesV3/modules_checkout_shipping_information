@@ -1,0 +1,3 @@
+module_checkout_shipping_information_title = Souhaitez-vous afficher dans la procédure d'expédition l'évolution du processus de commande ?
+module_checkout_shipping_information_description = Affiche dans la procédure d'expédition l'évolution du processus de commande
+

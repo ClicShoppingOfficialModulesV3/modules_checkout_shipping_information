@@ -1,0 +1,4 @@
+
+ module_checkout_shipping_information_title = Do you want to display a banner information ?
+ module_checkout_shipping_information_description = Display a banner information
+
