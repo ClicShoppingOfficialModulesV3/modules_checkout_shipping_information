@@ -1,6 +1,6 @@
 #modules_checkout_shipping_information
 
-Allow to display a specific information about the shipping
+Allow to display a banner information about the shipping
 
 This module contains
 
@@ -30,6 +30,3 @@ Implementation:
 - Activate the module Design / Order Process / Shipping
 
 - Copy the modules_checkout_shipping_information.json into ClicShopping/Work/Cache/Github (manual installation)
-
-
-![image](https://github.com/ClicShoppingOfficialModulesV3/modules_checkout_shipping_information/blob/master/ModuleInfosJson/image.png)

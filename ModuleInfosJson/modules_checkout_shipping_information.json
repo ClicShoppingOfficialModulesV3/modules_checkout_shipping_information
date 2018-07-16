@@ -14,8 +14,8 @@
   "apps_name":          "",
   "type_module":        "template",
   "dependance":         "",
-  "description":        "Allow to display a specific information about the shipping",
-  "image":              "ModuleInfosJson/image.png",
+  "description":        "Allow to display a banner information about the shipping",
+  "image":              "",
 
   "authors": [
     {
