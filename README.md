@@ -42,3 +42,5 @@ All informations about the ClicShopping
  Community add on : https://github.com/ClicShoppingV3Community
 
  trademark License info : https://www.clicshopping.org/forum/trademark/ 
+
+ ![image](https://github.com/ClicShoppingOfficialModulesV3/modules_checkout_shipping_information/blob/master/ModuleInfosJson/image.png)
