@@ -53,7 +53,7 @@
         $processing_shipping_information = '<!-- processing_shipping_information -->'. "\n";
 
         ob_start();
-        require($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_shipping_information'));
+        require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_shipping_information'));
 
         $processing_shipping_information .= ob_get_clean();
 
