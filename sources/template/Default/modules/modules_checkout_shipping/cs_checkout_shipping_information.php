@@ -43,6 +43,7 @@
       if (isset($_GET['Checkout']) && isset($_GET['Shipping'])) {
 
         $content_width = (int)MODULE_CHECKOUT_SHIPPING_INFORMATION_CONTENT_WIDTH;
+        $shipping_process_order_banner = '';
 
         if ($CLICSHOPPING_Service->isStarted('Banner') ) {
           if ($banner = $CLICSHOPPING_Banner->bannerExists('dynamic',  MODULE_CHECKOUT_SHIPPING_INFORMATION_BANNER_GROUP)) {
