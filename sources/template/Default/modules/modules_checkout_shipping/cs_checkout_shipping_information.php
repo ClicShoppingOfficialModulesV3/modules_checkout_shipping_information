@@ -134,7 +134,7 @@
     }
 
     public function keys() {
-      return array (
+      return array(
         'MODULE_CHECKOUT_SHIPPING_INFORMATION_STATUS',
         'MODULE_CHECKOUT_SHIPPING_INFORMATION_BANNER_GROUP',
         'MODULE_CHECKOUT_SHIPPING_INFORMATION_CONTENT_WIDTH',
