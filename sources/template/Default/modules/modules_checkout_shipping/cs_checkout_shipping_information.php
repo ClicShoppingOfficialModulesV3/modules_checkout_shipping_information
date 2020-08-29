@@ -16,10 +16,10 @@
   class cs_checkout_shipping_information {
     public $code;
     public $group;
-    public $title;
-    public $description;
-    public $sort_order;
-    public $enabled = false;
+    public string $title;
+    public string $description;
+    public ?int $sort_order = 0;
+    public bool $enabled = false;
 
     public function __construct() {
       $this->code = get_class($this);
@@ -45,13 +45,13 @@
         $content_width = (int)MODULE_CHECKOUT_SHIPPING_INFORMATION_CONTENT_WIDTH;
         $shipping_process_order_banner = '';
 
-        if ($CLICSHOPPING_Service->isStarted('Banner') ) {
+        if ($CLICSHOPPING_Service->isStarted('Banner')) {
           if ($banner = $CLICSHOPPING_Banner->bannerExists('dynamic',  MODULE_CHECKOUT_SHIPPING_INFORMATION_BANNER_GROUP)) {
             $shipping_process_order_banner = $CLICSHOPPING_Banner->displayBanner('static', $banner) . '<br /><br />';
           }
         }
 
-        $processing_shipping_information = '<!-- processing_shipping_information -->'. "\n";
+        $processing_shipping_information = '<!-- processing_shipping_information -->' . "\n";
 
         ob_start();
         require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/checkout_shipping_information'));
